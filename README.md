@@ -6,7 +6,7 @@
 
 ![Framework](./images/framework.png)
 
-**This repository is a modified fork of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch). We make use of [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/) and [mingyuliutw/UNIT](https://github.com/mingyuliutw/UNIT) for training the CycleGAN and  UNIT models for Thermal-to-RGB translation**
+**This repository is a modified fork of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch). We make use of [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/) and [mingyuliutw/UNIT](https://github.com/mingyuliutw/UNIT) for training the CycleGAN and  UNIT models for Thermal-to-RGB translation.**
 
 ## Preparation:
 
@@ -126,7 +126,7 @@ Download pre-trained MS-COCO weights from `MS-COCO/res101_coco`and place them in
 ```
 python trainval_cgan_update_coco.py --dataset pascal_voc --net res101_cgan_update_coco --bs 4 --nw 4 --epochs 15 --cuda --name rgb2thermal_flir --use_tfb
 ```
-**PASCAL-VOC as RGB branch:**
+* **PASCAL-VOC as RGB branch:**
 
 Download the pre-trained PASCAL-VOC weights from `PASCAL-VOC/res101_pascal` and place them in the `models/res101_pascal` folder. Start the training by running the following command:
 ```
@@ -139,7 +139,7 @@ For training on FLIR-1/2 and FLIR-1/4, you need to change the `trainval.txt` fil
 
 ## Testing and Reproducing results in the paper.
 
-## FLIR-full:
+### FLIR(full):
 
 **Baseline:** Weights for the baseline are located in `FLIR/res101_thermal` folder in the drive. Place the folder as it is in `models` directory and run the following command: 
 
