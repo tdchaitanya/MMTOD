@@ -194,3 +194,13 @@ python test_net_cgan_update.py --dataset pascal_voc --net res101_cgan_update --c
 ```
 
 For reproducing the results on FLIR-1/2 and FLIR-1/4 datasets, download the weights from `FLIR-1/2` and `FLIR-1/4` directories from the shared [drive folder](https://drive.google.com/drive/folders/1Hz6h3WS_rX6wvaGr4duC3ctd90R_l0eS?usp=sharing).
+
+## Citation
+
+     @InProceedings{Devaguptapu_2019_CVPR_Workshops,
+        author = {Devaguptapu, Chaitanya and Akolekar, Ninad and M Sharma, Manuj and N Balasubramanian, Vineeth},
+        title = {Borrow From Anywhere: Pseudo Multi-Modal Object Detection in Thermal Imagery},
+        booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+        month = {June},
+        year = {2019}
+}
