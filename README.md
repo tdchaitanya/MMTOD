@@ -139,7 +139,7 @@ For training on FLIR-1/2 and FLIR-1/4, you need to change the `trainval.txt` fil
 
 ## Testing and Reproducing results in the paper.
 
-### FLIR(full):
+### Reproducing results on FLIR dataset:
 
 **Baseline:** Weights for the baseline are located in `FLIR/res101_thermal` folder in the drive. Place the folder as it is in `models` directory and run the following command: 
 
