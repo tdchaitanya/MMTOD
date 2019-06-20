@@ -148,9 +148,9 @@ python test_net.py --dataset pascal_voc --net res101_thermal --checksession 1 --
 
 ```
 
-**MMTOD-UNIT** 
+1). **MMTOD-UNIT** 
 
-1). **MS-COCO as RGB Branch**
+* **MS-COCO as RGB Branch**
 
 Weights are located in `FLIR/res101_unit_update_coco` folder
 
@@ -160,7 +160,7 @@ Follow the instructions in the train section to use the Thermal-to-RGB weights. 
 python test_net_unit_update.py --dataset pascal_voc --net res101_unit_update_coco --checksession 1 --checkepoch 15 --checkpoint 15717 --cuda 
 ```
 
-2). **PASCAL-VOC as RGB Branch**
+* **PASCAL-VOC as RGB Branch**
 
 Weights are located in `FLIR/res101_unit_update` folder. 
 
@@ -170,9 +170,9 @@ As mentioned for the MS-COCO above, make sure to download the Thermal-to-RGB wei
 python test_net_unit_update.py --dataset pascal_voc --net res101_unit_update --checksession 1 --checkepoch 15 --checkpoint 15717 --cuda 
 ```
 
-**MMTOD-CGAN**
+2). **MMTOD-CGAN**
 
-1). **MS-COCO as the RGB Branch:**
+* **MS-COCO as the RGB Branch:**
 
 Weights are located in `FLIR/res101_cgan_update_coco` folder. 
 
@@ -182,7 +182,7 @@ Follow the instructions in the train section to use the Thermal-to-RGB weights. 
 python test_net_cgan_update.py --dataset pascal_voc --net res101_cgan_update_coco --checksession 1 --checkepoch 15 --checkpoint 3928 --cuda --name rgb2thermal_flir
 ```
 
-2). **PASCAL-VOC as RGB Branch**
+* **PASCAL-VOC as RGB Branch**
 
 Weights are located in `FLIR/res101_cgan_update` folder. 
 
