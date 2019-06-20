@@ -1,6 +1,6 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
-# Borrow from Anywhere: Pseudo Multimodal Object Detection in Thermal Domain.
+# Borrow from Anywhere: Pseudo Multimodal Object Detection in Thermal Domain
 
 [[Paper Link]](http://arxiv.org/abs/1905.08789)
 
