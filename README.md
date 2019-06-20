@@ -2,7 +2,7 @@
 
 # Borrow from Anywhere: Pseudo Multimodal Object Detection in Thermal Domain.
 
-[[Paper]](http://arxiv.org/abs/1905.08789)
+[[Paper Link]](http://arxiv.org/abs/1905.08789)
 
 ![Framework](./images/framework.png)
 
