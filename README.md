@@ -29,9 +29,9 @@ mkdir data
 
 ### Data Preparation
 
-* **FLIR ADAS**: FLIR ADAS dataset can be downloaded from [here](https://www.flir.in/oem/adas/adas-dataset-form/).
+* **FLIR ADAS**: Dataset can be downloaded from [here](https://www.flir.in/oem/adas/adas-dataset-form/).
 
-* **KAIST**: KAIST dataset can be downloaded [here](https://sites.google.com/site/pedestrianbenchmark/).
+* **KAIST**: Dataset can be downloaded from [here](https://sites.google.com/site/pedestrianbenchmark/).
 
 For ease of training, we convert all the annotations into PASCAL-VOC format. To convert the FLIR and KAIST datasets annotations into P-VOC format, use the scripts in the `generate_annotations` folder.
 
