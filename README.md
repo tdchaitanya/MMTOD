@@ -82,7 +82,7 @@ python setup.py build develop
 
 Pick the `trainval.txt` for FLIR dataset along with the `test.txt` and place them in `./data/VOCdevkit2007/VOC2007/ImageSets/Main/` folder. `trainval.txt` is different for each of FLIR, FLIR-1/2, and FLIR-1/4.
 
-1.) **Single mode Faster-RCNN on FLIR ADAS:**
+1). **Single mode Faster-RCNN on FLIR ADAS:**
 
 Once you complete all the above steps, training the baseline model should be simple. Execute the following command to start training: 
 
@@ -90,7 +90,7 @@ Once you complete all the above steps, training the baseline model should be sim
 python trainval_net.py --dataset pascal_voc --net res101_thermal --bs 8 --nw 4 --epochs 15 --cuda --use_tfb 
 ```
 
-2.) **MMTOD-UNIT**
+2). **MMTOD-UNIT**
 
 
 For using the RGB branch of the network, you'll need to generate a pseudo-RGB image from the input thermal image. For this you'll need pre-trained Thermal-to-RGB `UNIT` weights, these can be downloaded from `unit/models` folder in [drive](https://drive.google.com/drive/folders/1Hz6h3WS_rX6wvaGr4duC3ctd90R_l0eS?usp=sharing) . Place these weights in `lib/model/unit/models`.
@@ -116,7 +116,7 @@ Download the pre-trained PASCAL-VOC weights from `PASCAL-VOC/res101_pascal` and 
 python trainval_unit_update.py --dataset pascal_voc --net res101_unit_update --bs 1 --nw 4 --epochs 15 --cuda --use_tfb
 ```
 
-3.) **MMTOD-CycleGAN**
+3). **MMTOD-CycleGAN**
 
 For Thermal-to-RGB translation you need the RGB-to-Thermal CycleGAN weights, these can be downloaded from `cgan/checkpoints/rg2thermal_flir` folder in the [drive](https://drive.google.com/drive/folders/1Hz6h3WS_rX6wvaGr4duC3ctd90R_l0eS?usp=sharing). Place these weights in `lib/model/cgan/checkpoints` 
 
@@ -202,5 +202,4 @@ For reproducing the results on FLIR-1/2 and FLIR-1/4 datasets, download the weig
         title = {Borrow From Anywhere: Pseudo Multi-Modal Object Detection in Thermal Imagery},
         booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
         month = {June},
-        year = {2019}
-}
+        year = {2019}}
