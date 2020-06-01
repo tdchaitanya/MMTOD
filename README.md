@@ -6,8 +6,6 @@
 
 ![Framework](./images/framework.png)
 
-**This repository is a modified fork of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch). We make use of [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/) and [mingyuliutw/UNIT](https://github.com/mingyuliutw/UNIT) for training the CycleGAN and  UNIT models for Thermal-to-RGB translation.**
-
 ## Preparation:
 
 Clone the repository: 
@@ -203,3 +201,6 @@ For reproducing the results on FLIR-1/2 and FLIR-1/4 datasets, download the weig
         booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
         month = {June},
         year = {2019}}
+
+## Acknowledgement
+**This repository is a inspired modified from [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch). We make use of [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/) and [mingyuliutw/UNIT](https://github.com/mingyuliutw/UNIT) for training the CycleGAN and  UNIT models for Thermal-to-RGB translation.**
