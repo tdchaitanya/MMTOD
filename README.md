@@ -74,7 +74,7 @@ cd lib
 python setup.py build develop
 ```
 
-**As pointed out in this [issue](https://github.com/jwyang/faster-rcnn.pytorch/issues/16), if you encounter some error during the compilation, you might miss to export the CUDA paths to your environment.**
+**As pointed out in this [issue](https://github.com/jwyang/faster-rcnn.pytorch/issues/16), if you encounter some error during the compilation, you might have missed to export the CUDA paths to your environment.**
 
 ## Train
 
